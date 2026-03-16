@@ -113,6 +113,7 @@ text-decoration:none;
 /* FOOD SECTION */
 
 .foods-section{
+background-color: rgb(46, 23, 23);
 display:flex;
 justify-content:space-evenly;
 padding:40px;
@@ -260,9 +261,6 @@ gap:10px;
 }
 
 }
-
-
-
 
 
 
