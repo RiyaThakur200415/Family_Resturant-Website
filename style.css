@@ -9,50 +9,60 @@ font-family:Arial;
 /* NAVBAR */
 
 .nav-bar{
-height:70px;
-width:100%;
-background:black;
-display:flex;
-align-items:center;
-justify-content:space-evenly;
-position:relative;
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
-
 .logo-container{
-background-image:url('logos/logo.png');
-background-size:cover;
-height:70px;
-width:140px;
+    background-image: url('logos/logo.png');
+    background-size: cover;
+    height: 70px;
+    width: 140px;
 }
-
 .nav-details{
-display:flex;
-gap:25px;
+    color: white;
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    gap:6px;
 }
-
 .nav-details a{
-color:white;
-text-decoration:none;
+    color: white;
 }
-
+.nav-details a:hover{
+    cursor:pointer;
+    border: 1px solid white;
+    padding:2px;
+    border-radius: 4px;
+}
 .nav-icons{
-display:flex;
-gap:20px;
-color:white;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    width: 10%;  
 }
-
+.nav-icons i:hover{
+    cursor: pointer;
+    color:chocolate;
+}
 .nav-order{
-background:orange;
-padding:6px 15px;
-border-radius:5px;
-color:white;
+    color: white;
+    background-color: orange;
+    height: 30px;
+    width: 8%;
+    border-radius: 5px;
 }
-
-.menu-toggle{
-display:none;
-color:white;
-font-size:25px;
-cursor:pointer;
+.nav-order p{
+    text-align: center;
+    line-height: 30px;
+    margin: 0;
+}
+.nav-order:hover{
+    cursor:pointer;
+    color: chocolate;
 }
 
 
