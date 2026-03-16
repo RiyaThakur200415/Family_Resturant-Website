@@ -89,7 +89,7 @@ body{
 
 .hero-heading p {
   font-size: 80px;
-  margin-top: -20px;
+  margin-top: -10px;
   margin-left: -40px;
   color:#fff;
   
@@ -200,7 +200,7 @@ input[name="r"]{
 .food-section{
     height: 550px;
     width: 100%;
-    background-color: #390404;
+    background-color:rgb(73, 45, 26);
     margin-top: 400px;
     margin-left: -20px;
     display: flex;
