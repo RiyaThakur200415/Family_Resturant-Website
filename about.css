@@ -27,6 +27,7 @@ body{
 }
 .nav-details a{
     color: white;
+    text-decoration: none;
 }
 .nav-details a:hover{
     cursor:pointer;
@@ -203,8 +204,10 @@ flex-wrap:wrap;
 }
 
 .icons{
+margin-left: 60px;
 display:flex;
 gap:20px;
+color: orange;
 }
 
 .footer-logo{
