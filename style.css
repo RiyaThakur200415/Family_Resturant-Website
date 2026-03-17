@@ -102,8 +102,16 @@ display:flex;
 align-items:center;
 justify-content:center;
 margin-top:20px;
+cursor: pointer;
 }
 
+.hero-menu:hover{
+    background-color: aliceblue;
+    
+}
+.hero-menu p:hover{
+    color: black;
+}
 .hero-menu a{
 color:white;
 text-decoration:none;
@@ -127,6 +135,10 @@ text-align:center;
 padding:20px;
 border-radius:6px;
 margin-bottom:20px;
+cursor: pointer;
+}
+.box:hover{
+    box-shadow: 6px 4px 10px 0 rgba(96, 94, 94, 0.2), 0 6px 20px 0 rgba(191, 171, 171, 0.19);
 }
 
 .img{
@@ -150,6 +162,7 @@ display:flex;
 justify-content:space-evenly;
 flex-wrap:wrap;
 margin-top:30px;
+margin-bottom: 10px;
 }
 
 footer h3{
@@ -177,8 +190,25 @@ flex-wrap:wrap;
 }
 
 .icons{
+margin-left: 60px;    
 display:flex;
 gap:20px;
+}
+
+.footer-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;      
+    text-align: center;
+}
+
+.footer-logo h2{
+    margin: 0;
+}
+
+.footer-logo p{
+    margin: 5px 0 0;
 }
 
 
@@ -259,6 +289,8 @@ flex-direction:column;
 align-items:center;
 gap:10px;
 }
+
+
 
 }
 
